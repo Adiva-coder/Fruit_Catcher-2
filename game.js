@@ -34,7 +34,7 @@ class Game{
             player2 = createSprite(800,500);
             player2.addImage("player2", player_img);
             //player2.debug = true;
-            player1.setCollider("rectangle", 0, 15, player1.width - 20, 60);
+            player2.setCollider("rectangle", 0, 15, player1.width - 20, 60);
 
             players = [player1,player2];
 
